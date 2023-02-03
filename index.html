@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href ="style.css"/>
+    <title>Weather app</title>
+</head>
+
+<body>
+    <main class="main-box"> 
+        <h1 class="main-title">Weather app</h1>
+        <P class="main-subtitle">
+            Find a location and inspect how the weather looks like.
+        </P>
+        
+        <form id="searchBoxForm" class="search-box">
+            <input
+              type="text"
+              placeholder="Ej. London"
+              name="cityField"
+              id="cityField"
+              class="search-field"
+            />
+            <button type="submit" id="searchButton" class="search-button">
+              Search
+            </button>
+          </form>
+
+          <section id="results" class="results-box hide">
+          </section>
+    </main>
+    <script src="/index.js">
+
+    </script>
+</body>
+</html>
